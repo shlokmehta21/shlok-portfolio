@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e2c96613.css",
+    "main.js": "/static/js/main.540bf56e.js",
+    "static/media/p1.png": "/static/media/p1.fc69ac6593c6beaf0966.png",
+    "static/media/SM.svg": "/static/media/SM.473d9ea3dfeda11f69f8b10ba1f6ff4e.svg",
+    "static/media/p3.png": "/static/media/p3.a0932d307a747d8eb844.png",
+    "static/media/p2.png": "/static/media/p2.d6b4cdc54a24365b0500.png",
+    "static/media/gradient.png": "/static/media/gradient.5a796528c5336a03388b.png",
+    "static/media/gql.png": "/static/media/gql.981735977176257a767f.png",
+    "static/media/express.png": "/static/media/express.2e9f3166fd64bcc6bcac.png",
+    "static/media/shlok-resume.pdf": "/static/media/shlok-resume.20f05d6ad1ae45dd198e.pdf",
+    "static/media/mongoose.png": "/static/media/mongoose.d7449f046ea0ee2350b5.png",
+    "static/media/react.png": "/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/football.png": "/static/media/football.4ae7ef6d5019370bd97b.png",
+    "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/node-js.png": "/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/mysql.png": "/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/sass.png": "/static/media/sass.6747d5c68a381e29fc69.png",
+    "static/media/figma.png": "/static/media/figma.d6d2ec9d4cbda758c304.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/index.html",
+    "static/media/menu.svg": "/static/media/menu.50ad939c769d162b3657e6873d52e659.svg",
+    "main.e2c96613.css.map": "/static/css/main.e2c96613.css.map",
+    "main.540bf56e.js.map": "/static/js/main.540bf56e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2c96613.css",
+    "static/js/main.540bf56e.js"
+  ]
+}
