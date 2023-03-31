@@ -1,0 +1,164 @@
+.project-container {
+  position: relative;
+  max-width: 1300px;
+  margin-top: 100px;
+  z-index: 7;
+}
+
+.project-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-title {
+  margin: 0px 0px 30px 4px;
+  font-size: clamp(45px, 12vw, 45px);
+  font-weight: 500;
+  text-align: center;
+  color: aliceblue;
+}
+
+.project-desc {
+  text-align: center;
+  margin: 0px;
+  max-width: 50%;
+  font-size: clamp(14px, 5vw, 16px);
+  font-weight: 600;
+  color: #8892b0;
+}
+
+.project-cards-container {
+  margin-top: 40px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #12071f;
+  border: 1px solid rgb(29, 29, 60);
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px;
+}
+
+.card-img {
+  border-radius: 8px;
+}
+
+.img {
+  border-radius: 8px;
+  object-fit: fill;
+  width: 640px;
+  height: 360px;
+}
+
+.icon-img {
+  display: flex;
+}
+
+.project-logo {
+  object-fit: contain;
+  height: 70px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card-desc {
+  width: 80%;
+  font-weight: 400;
+  color: #8892b0;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.tech-used {
+  display: flex;
+  gap: 10px;
+}
+
+.project-btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.card-btn {
+  width: 25px;
+  height: 25px;
+}
+
+.feather:hover {
+  stroke: rgb(29, 102, 180);
+}
+
+@media only screen and (max-width: 1165px) {
+  .card-container {
+    flex-direction: column-reverse;
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-logo {
+    object-fit: contain;
+    height: 70px;
+  }
+
+  .card-desc {
+    width: 80%;
+    font-weight: bold;
+    color: #8892b0;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .img {
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .project-logo {
+    object-fit: contain;
+    height: 60px;
+  }
+
+  .card-desc {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .tech-used {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+
+  .card-btn {
+    font-size: 14px;
+  }
+
+  .img {
+    display: none;
+  }
+}

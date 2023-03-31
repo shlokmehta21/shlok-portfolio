@@ -1,0 +1,121 @@
+.skill-section-container {
+  position: relative;
+  z-index: 7;
+  max-width: 1300px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.title {
+  flex: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 40px auto;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+.title-container {
+  min-height: 206px;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px 0px 20px 5px;
+}
+
+.title-content {
+  margin-left: 30px;
+}
+
+.title-text {
+  margin: 0px 0px 30px 4px;
+  font-size: clamp(45px, 12vw, 45px);
+  font-weight: 500;
+}
+
+.title-desc {
+  margin: 0px;
+  max-width: 90%;
+  font-size: clamp(14px, 5vw, 16px);
+  font-weight: 600;
+  color: #8892b0;
+  word-spacing: 4px;
+  line-height: 1.2;
+}
+
+.gradient-bg-title {
+  object-fit: cover;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 10px;
+}
+
+.site {
+  color: aliceblue;
+}
+
+.skill-container {
+  z-index: 3;
+  margin-top: 30px;
+  margin-right: 6px;
+  border-radius: 10px;
+  background-color: #12071f;
+  border: 1px solid rgb(29, 29, 60);
+}
+
+.chip-container {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.panel-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 1010px) {
+  .inner-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .chip-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .chip-container {
+    padding: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .chip-container {
+    padding: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
