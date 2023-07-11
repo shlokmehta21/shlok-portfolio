@@ -3,7 +3,6 @@ import { ReactComponent as SMlogo } from "../../assets/SM.svg";
 import { ReactComponent as MenuIcon } from "../../assets/menu.svg";
 import "./NavBar.css";
 import Stars from "../Stars/Stars";
-import resume from "../../assets/shlok-resume.pdf";
 import { motion } from "framer-motion";
 
 function NavBar({ setOpen }) {
@@ -51,7 +50,11 @@ function NavBar({ setOpen }) {
                 </a>
               </li>
               <li className="resume">
-                <a href={resume} target="_blank" rel="noreferrer">
+                <a
+                  href="https://drive.google.com/file/d/1SLUiccdzWma7USM3I5etildqQH5EcQ-r/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Resume
                 </a>
               </li>

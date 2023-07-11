@@ -1,13 +1,11 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import Link from "@mui/material/Link";
-import resume from "../../assets/shlok-resume.pdf";
 
 export default function TopDrawer({ open, setOpen }) {
   const listItems = [
@@ -17,7 +15,10 @@ export default function TopDrawer({ open, setOpen }) {
       link: "https://www.linkedin.com/in/shlok-mehta-759347192/",
     },
     { text: "GitHub", link: "https://github.com/shlokmehta21" },
-    { text: "Resume", link: resume },
+    {
+      text: "Resume",
+      link: "https://drive.google.com/file/d/1SLUiccdzWma7USM3I5etildqQH5EcQ-r/view?usp=sharing",
+    },
   ];
 
   const list = () => (

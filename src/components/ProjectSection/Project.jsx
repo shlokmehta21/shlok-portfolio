@@ -2,9 +2,11 @@ import React from "react";
 import p1 from "../../assets/projects/p1.png";
 import p2 from "../../assets/projects/p2.png";
 import p3 from "../../assets/projects/p3.png";
+import p4 from "../../assets/projects/p4.png";
 import FootballStore from "../../assets/football.png";
 import CMC from "../../assets/CMC.png";
 import Vadict from "../../assets/vadict.png";
+import EasyRiderLogo from "../../assets/easyriderlogo.png";
 import "./Project.css";
 import IconExternal from "../icons/External";
 import IconGitHub from "../icons/Github";
@@ -32,6 +34,15 @@ const projectData = [
   },
   {
     id: 2,
+    cover: p4,
+    icon: EasyRiderLogo,
+    skills: ["React Native", "Typescript", "NodeJs", "ExpressJs", "MongoDB"],
+    github: "https://github.com/shlokmehta21/EasyRider",
+    describtion:
+      "EasyRider connects travellers with available seats in drivers' vehicles. Users can search, book rides, create listings, and communicate with drivers and passengers. This app facilitates convenient and efficient ride-sharing by connecting riders and drivers, streamlining the process of finding and booking rides for a seamless travel experience.",
+  },
+  {
+    id: 3,
     cover: p2,
     icon: CMC,
     skills: ["React", "Javascript", "MUI", "NodeJs", "ExpressJs"],
@@ -41,7 +52,7 @@ const projectData = [
       "A web application that tracks various cryptocurrency prices and related information, users can make their crypto watchlist and view real-time charts and news. Fetched crypto data from Coingecko API and news data from News API using NodeJS. ",
   },
   {
-    id: 3,
+    id: 4,
     cover: p3,
     icon: Vadict,
     skills: [

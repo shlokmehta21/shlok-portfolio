@@ -20,6 +20,7 @@ import sass from "../../assets/sass.png";
 import mui from "../../assets/mui.png";
 import fmotion from "../../assets/motion.png";
 import figma from "../../assets/figma.png";
+import nextjs from "../../assets/nextjs.png";
 import { motion } from "framer-motion";
 
 const tech = [
@@ -42,6 +43,14 @@ const tech = [
   {
     name: "ReactJs",
     img: react,
+  },
+  {
+    name: "React Native",
+    img: react,
+  },
+  {
+    name: "NextJs",
+    img: nextjs,
   },
   {
     name: "Redux",
