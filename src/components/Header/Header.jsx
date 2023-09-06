@@ -34,8 +34,8 @@ function Header({ open, setOpen }) {
             <h2 className="heading">I build things for the Web.</h2>
             <p className="description">
               I’m a software engineer specializing in building Full-Stack
-              Applications. Currently, I’m a Post-Graduate Student in Web
-              Development At <span className="site">Conestoga College.</span>
+              Applications. Recently completed Post-Graduate certificate in Web
+              Development from <span className="site">Conestoga College.</span>
             </p>
           </div>
         </div>

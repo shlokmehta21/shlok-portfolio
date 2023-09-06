@@ -3,10 +3,12 @@ import p1 from "../../assets/projects/p1.png";
 import p2 from "../../assets/projects/p2.png";
 import p3 from "../../assets/projects/p3.png";
 import p4 from "../../assets/projects/p4.png";
+import p5 from "../../assets/projects/p5.png";
 import FootballStore from "../../assets/football.png";
 import CMC from "../../assets/CMC.png";
 import Vadict from "../../assets/vadict.png";
 import EasyRiderLogo from "../../assets/easyriderlogo.png";
+import MoodAI from "../../assets/moodAILogo.png";
 import "./Project.css";
 import IconExternal from "../icons/External";
 import IconGitHub from "../icons/Github";
@@ -14,7 +16,35 @@ import { motion } from "framer-motion";
 
 const projectData = [
   {
-    id: 1,
+    id: 0,
+    cover: p5,
+    icon: MoodAI,
+    skills: [
+      "NextJS",
+      "ChakraUI",
+      "TailwindCSS",
+      "Typescript",
+
+      "MySQL",
+      "OpenAI",
+    ],
+    github: "https://github.com/shlokmehta21/mood-journal-ai",
+    link: "https://mood-virid.vercel.app/",
+    describtion:
+      "Mood AI is your mental well-being companion, enabling daily journaling with emotional analysis. Discover prevailing feelings, inquire about weekly moods, and track your emotional history. This secure and confidential tool offers valuable insights, empowering you to lead a happier, healthier life through self-reflection and awareness.",
+  },
+
+  {
+    id: 2,
+    cover: p4,
+    icon: EasyRiderLogo,
+    skills: ["React Native", "Typescript", "NodeJs", "ExpressJs", "MongoDB"],
+    github: "https://github.com/shlokmehta21/EasyRider",
+    describtion:
+      "EasyRider connects travellers with available seats in drivers' vehicles. Users can search, book rides, create listings, and communicate with drivers and passengers. This app facilitates convenient and efficient ride-sharing by connecting riders and drivers, streamlining the process of finding and booking rides for a seamless travel experience.",
+  },
+  {
+    id: 3,
     cover: p1,
     icon: FootballStore,
     skills: [
@@ -31,15 +61,6 @@ const projectData = [
     link: "https://footballshoestore.netlify.app/",
     describtion:
       "Created Football Shoes Store using MERN stack which allows users to buy products online and admin to keep track of orders and manage products on the admin panel. Developed RESTful API using NodeJS and implemented the application's front end on ReactJS; managed global Application state using Redux. Deployed Front-End on netlify and Back-End on Railyway.io and used MongoDB atlas to store data.",
-  },
-  {
-    id: 2,
-    cover: p4,
-    icon: EasyRiderLogo,
-    skills: ["React Native", "Typescript", "NodeJs", "ExpressJs", "MongoDB"],
-    github: "https://github.com/shlokmehta21/EasyRider",
-    describtion:
-      "EasyRider connects travellers with available seats in drivers' vehicles. Users can search, book rides, create listings, and communicate with drivers and passengers. This app facilitates convenient and efficient ride-sharing by connecting riders and drivers, streamlining the process of finding and booking rides for a seamless travel experience.",
   },
   {
     id: 3,
